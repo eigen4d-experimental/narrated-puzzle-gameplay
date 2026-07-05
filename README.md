@@ -2,6 +2,12 @@
 
 This dataset is a narrated puzzle-gameplay video corpus with clip-level frames, transcripts, metadata, and streaming supervision derived from gameplay videos. The frame-loadable pool contains 76,336 verified clips spanning 755.631 hours, 8,864 source-video/tar units, and 1,311 unique games; the recommended default subset for training and evaluation is `clean_v1_verified.jsonl`, with 32,868 retrievable clips spanning 335.929 hours and 577 unique games. The dataset is intended for research on video-language grounding, narrated gameplay understanding, action anticipation from narration, and streaming speech/gameplay alignment.
 
+## Sample Data
+
+![sample](assets/sample_clip.png)
+
+Frames from one clip; the streamer narration is time-aligned to the frames (shown here as subtitles).
+
 ## Quickstart
 
 ```bash
